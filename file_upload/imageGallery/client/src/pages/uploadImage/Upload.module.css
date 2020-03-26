@@ -1,0 +1,49 @@
+
+.upload{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    width: 60%;
+    padding: 20px;
+
+}
+
+h1{
+    padding: 20px 0;
+}
+
+.input{
+    margin-top: 20px;
+}
+
+
+.input[type='file']{
+    display: flex;
+    width: 50%;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.input[type='submit']{
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    background: green;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+

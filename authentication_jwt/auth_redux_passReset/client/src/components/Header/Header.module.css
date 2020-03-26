@@ -1,0 +1,32 @@
+
+.header{
+
+    width: 100%;
+    background: rgb(47, 47, 238);
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;    
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-right: auto;
+}
+
+
+.nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: red;
+}

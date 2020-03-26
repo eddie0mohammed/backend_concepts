@@ -1,0 +1,29 @@
+
+.header{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    background: rgb(42, 42, 247);
+    color: white;
+} 
+
+.logo{
+    font-weight: 600;
+    margin-right: auto;
+}
+
+.nav{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.button{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    color: red;
+}
